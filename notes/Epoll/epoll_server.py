@@ -16,7 +16,7 @@ server_address = ("127.0.0.1", 9999)
 serversocket.bind(server_address)
 #监听，并设置最大连接数
 serversocket.listen(10)
-print  "服务器启动成功，监听IP：", server_address
+print("服务器启动成功，监听IP：", server_address)
 #服务端设置非阻塞
 serversocket.setblocking(False)
 #超时时间
